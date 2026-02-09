@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand: Maroon #820000, Blue #0e4d8d, White #FFFFFF — light theme */
+  --color-background: #ffffff;
+  --color-foreground: #1e293b;
+  --color-maroon: #820000;
+  --color-maroon-dark: #5c0000;
+  --color-maroon-light: #a31f1f;
+  --color-blue: #0e4d8d;
+  --color-blue-dark: #0a3a6b;
+  --color-blue-light: #3d7ab8;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: #f8fafc;
+  color: #1e293b;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  min-height: 100vh;
+}
